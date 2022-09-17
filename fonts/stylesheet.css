@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Jackwrite';
+    src: url('Jackwrite-Bold.woff2') format('woff2'),
+        url('Jackwrite-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jackwrite';
+    src: url('Jackwrite.woff2') format('woff2'),
+        url('Jackwrite.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jackwrite';
+    src: url('Jackwrite-Thin.woff2') format('woff2'),
+        url('Jackwrite-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

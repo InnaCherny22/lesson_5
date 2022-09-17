@@ -1,0 +1,98 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet"') 
+@font-face {
+	font-family: "Jackwrite";
+	src: url("../fonts/Jackwrite-Bold.woff2")format("woff2"),url("../fonts/Jackwrite-Bold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Jackwrite";
+	src: url("../fonts/Jackwrite.woff2")format("woff2"),url("../fonts/Jackwrite.woff")format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-family: "Mulish";
+	font-weight: 700;
+}
+p {
+	font-family: "Jackwrite";
+	text-decoration: underline;
+	text-indent: 15px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+div {
+	font-family: Mulish;
+	font-weight: 600;
+	padding-top: 10px;
+	width: 50%;
+}
+* {
+	color: rgb(32, 139, 0);
+}
+.text {
+	color: cyan;
+	font-family: monospace;
+	font-size: 20px;
+}
+#header {
+	color: blueviolet;
+	letter-spacing: 10px;
+}
+p.text {
+	color: brown;
+}
+.lesson.text {
+	color: green;
+}
+.text>p {
+color: indianred;
+}
+.text+p {
+	color: magenta;
+}.text~p {
+	color: olive;
+}
+.lesson
+.text
+.link {
+	color: dodgerblue;
+}
+.topic {
+	color: blue;
+	font-weight: 300;
+	text-align: justify;
+}
+h3 {
+	color: darkorange;
+	font-family: cursive;
+	font-style: oblique;
+	text-decoration: line-through;
+	margin-left: 30px;
+}
+h1 {
+	font-family: fantasy;
+	font-style: italic;
+	font-weight: 900;
+	text-align: center;
+}
+.title {
+	color: hsla(326, 51%, 28%, 0.614);
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+.lesson {
+	text-shadow: 5px 5px 5px rgb(0, 255, 242);
+	white-space: nowrap;
+}
+li {
+	text-transform: lowercase;
+	word-spacing: 20px;
+}
+h4 {
+	text-transform: uppercase;
+}
